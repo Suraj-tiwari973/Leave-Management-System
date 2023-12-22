@@ -1,0 +1,45 @@
+header{
+    height: 70px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid black;
+    box-shadow: 4px 4px 2px silver;
+}
+header>h3{
+    color:blue;
+    margin-left: 10px;
+}
+.leave--form{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.date--picker{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+textarea{
+    width: 100%;
+    
+}
+textarea:hover{
+    border-color: blue;
+}
+  
+.custom-file-upload{
+    cursor: pointer;
+}
+input[type='text']:hover{
+    border-color: blue;
+}
+input[type='file']:hover{
+    border-color: blue;
+}
+
+@media (max-width:763px) {
+    .leave--form{
+        width: 70%;
+        margin-top:20px
+    }
+}

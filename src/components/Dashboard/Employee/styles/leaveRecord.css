@@ -1,0 +1,50 @@
+header{
+    height: 70px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid black;
+    box-shadow: 4px 4px 2px silver;
+}
+header>h3{
+    color:blue;
+    margin-left: 10px;
+}
+
+
+.left--div{
+    height: 90vh;
+    background: #042331;
+}
+.right--div{
+    background-color:aliceblue ;
+    height: 90vh;
+    overflow-y: auto;
+}
+
+thead{
+    position: sticky;
+    top: 0;
+    text-align: center;
+}
+tbody{
+    text-align: center;
+}
+
+
+.username--text{
+    margin-bottom: 10px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(70, 240, 240);
+}
+
+@media (max-width:770px) {
+    .left--div{
+        height: 60vh;
+    }
+    .username--text{
+        background-color: rgb(70, 240, 240);
+    }
+}

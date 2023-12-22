@@ -1,0 +1,12 @@
+.approve--btn{
+    margin-right: 10px;
+}
+.reject--btn{
+    width: 86px;
+}
+
+@media (max-width:907px) {
+    .reject--btn{
+        margin-top: 5px;
+    }
+}

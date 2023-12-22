@@ -1,0 +1,10 @@
+.main-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #2E4374;
+    height: 90vh;
+}
+h1{
+    color: #ffff;
+}

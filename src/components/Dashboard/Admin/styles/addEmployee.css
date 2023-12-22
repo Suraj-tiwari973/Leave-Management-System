@@ -1,0 +1,20 @@
+.add--employee{
+    margin-top: 30px;
+}
+
+.add--employee--form{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+input[type='email']:hover{
+    border-color: blue;
+}
+input[type='password']:hover{
+    border-color: blue;
+}
+@media (max-width:450px) {
+    .add--employee--form{
+        width: 90%;
+    }
+}
