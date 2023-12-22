@@ -8,7 +8,7 @@ import M from "materialize-css";
 const EmployeeLogin = ()=> {
 
   const preEmail = "abc@gmail.com";  // static email and password.
-  const prePassword = '123456';
+  const prePassword = '1234';
 
   const navigate  = useNavigate();
 
