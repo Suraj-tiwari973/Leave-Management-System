@@ -7,7 +7,7 @@ const Navbar = () => {
       <nav className="navbar navbar-expand-lg bg-body-tertiary">
         <div className="container-fluid">
           <Link className="navbar-brand" to="#">
-            <h3 style={{color:"blue"}}>DeepAlgorithms</h3>
+            <h3 style={{color:"blue"}}>TradiIons</h3>
           </Link>
           <button
             className="navbar-toggler"

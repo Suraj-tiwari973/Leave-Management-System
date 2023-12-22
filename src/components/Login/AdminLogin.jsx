@@ -33,7 +33,7 @@ const AdminLogin = ()=> {
   return (
     <>
     <header>
-        <h3 style={{marginLeft:"10px",}}>DeepAlgorithms</h3>
+        <h3 style={{marginLeft:"10px",}}>TradiIons</h3>
     </header>
       <div className="root">
         <div className="details"></div>

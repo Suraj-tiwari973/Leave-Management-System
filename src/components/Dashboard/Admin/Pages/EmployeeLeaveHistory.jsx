@@ -83,7 +83,7 @@ const EmployeeLeaveHistory = () => {
   return (
     <div>
       <header>
-        <h3>DeepAlgorithms</h3>
+        <h3>TradiIons</h3>
       </header>
 
       <div class="fluid-container main--container">
